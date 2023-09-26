@@ -1,4 +1,9 @@
+/*6. Least Recently Used (LRU) Cache*:
 
+- *Problem*: Implement an LRU (Least Recently Used) Cache using Java's `LinkedHashMap`. Ensure that the cache has a specified maximum size, and when the cache is full, the least recently accessed item is removed first.
+  
+- *Hint*: Use the `LinkedHashMap` and override its `removeEldestEntry` method.
+	*/
 import java.util.*;
 public class Main
 {
